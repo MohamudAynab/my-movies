@@ -1,0 +1,18 @@
+.div-collections {
+    margin: 1rem 15px 0;
+    border: solid black;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .row {
+    margin: 1rem 15px 0;
+  }
+  
+
+  .btn-sucesss {
+      background-color: rgb(12, 216, 230);
+      border: solid black;
+      margin: 1rem 15px 0;
+  }
+
