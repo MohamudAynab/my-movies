@@ -6,6 +6,13 @@ import PropTypes from 'prop-types'; // be sure to include this!
 class Movie extends Component {
     constructor() {
         super();
+        this.state = {
+          Rank: this.props.Rank,
+          Title: this.props.Title,
+          Description: this.props.Description,
+          Genre: this.props.Genre,
+          Year: this.props.Year
+        }
     }
 
     render() {
