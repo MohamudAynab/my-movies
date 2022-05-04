@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../css/Movie.css';
-import PropTypes from 'prop-types'; // be sure to include this!
+import PropTypes from 'prop-types'; 
 
 
 const MOVIE_TITLE = "Movie Title", MOVIE_RANK =" Movie Rank",  MOVIE_DESCRIPTION="Movie Description", MOVIE_GENRE="Movie Genre", MOVIE_YEAR=" Movie Year";
@@ -38,6 +38,10 @@ class Movie extends Component {
         Year: this.yearContent.current.value,
         editMode: false
       });
+    }
+
+    handleDelete() {
+            this.props.deleteHandler(this.props.id);
     }
     
     render(){

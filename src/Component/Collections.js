@@ -12,8 +12,7 @@ class Collections extends Component {
     }
 
     addMovie() {
-        let movie = this.state.Movie.push; 
-        movie.push(
+        this.state.Movie.push(
             {
                 id: Date.now()
             }
@@ -26,7 +25,7 @@ class Collections extends Component {
     }
 
     deleteMovie(id)  {
-        let newMovieArr = this.state.movie;
+        let newMovieArr = this.state.Movie;
         newMovieArr.map ((Movie, index) => {
             if (id === Movie.id) {
                 newMovieArr.splice (index, 1);
