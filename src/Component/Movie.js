@@ -47,11 +47,11 @@ class Movie extends Component {
     render(){
       let rankElement, titleElement, descriptionElement, genreElement, yearElement, buttonArea; 
       if (this.state.editMode){
-         rankElement = <textarea ref={this.rankContent} className="rank-textarea" defaultValue={this.state.Rank}></textarea>;
+         rankElement = <textarea ref={this.rankContent} className="rank-textarea" defaultValue={this.state.rank}></textarea>;
          titleElement = <textarea ref={this.titleContent} className="title-textarea" defaultValue={this.state.title}></textarea>;
-         descriptionElement = <textarea ref={this.descriptionContent} className="description-textarea" defaultValue={this.state.Description}></textarea>;
-         genreElement = <textarea ref={this.genreContent} className="genre-textarea" defaultValue={this.state.Genre}></textarea>;
-         yearElement = <textarea ref={this.yearContent} className="year-textarea" defaultValue={this.state.Year}></textarea>;
+         descriptionElement = <textarea ref={this.descriptionContent} className="description-textarea" defaultValue={this.state.description}></textarea>;
+         genreElement = <textarea ref={this.genreContent} className="genre-textarea" defaultValue={this.state.genre}></textarea>;
+         yearElement = <textarea ref={this.yearContent} className="year-textarea" defaultValue={this.state.year}></textarea>;
          buttonArea = <div><button className="btn btn-primary" onClick={this.handleSave.bind(this)}>Save</button></div>;
       }else{
           rankElement=<h5 className="card-body">{this.state.Rank}</h5>;

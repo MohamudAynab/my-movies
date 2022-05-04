@@ -13,3 +13,31 @@
   resize: none;
   width: 100%;
 }
+
+.rank-textarea {
+  font-size: 24px;
+  font-weight: bold;
+  resize: none;
+  width: 100%;
+}
+
+.description-textarea {
+  font-size: 24px;
+  font-weight: bold;
+  resize: none;
+  width: 100%;
+}
+
+.genre-textarea {
+  font-size: 24px;
+  font-weight: bold;
+  resize: none;
+  width: 100%;
+}
+
+.year-textarea {
+  font-size: 24px;
+  font-weight: bold;
+  resize: none;
+  width: 100%;
+}
