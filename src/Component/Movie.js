@@ -52,14 +52,14 @@ class Movie extends Component {
          descriptionElement = <textarea ref={this.descriptionContent} className="description-textarea" defaultValue={this.state.description}></textarea>;
          genreElement = <textarea ref={this.genreContent} className="genre-textarea" defaultValue={this.state.genre}></textarea>;
          yearElement = <textarea ref={this.yearContent} className="year-textarea" defaultValue={this.state.year}></textarea>;
-         buttonArea = <div><button className="btn btn-primary" onClick={this.handleSave.bind(this)}>Save</button></div>;
+         buttonArea = <div><button className="btn btn-primary" onClick={this.handleSave.bind(this)}>Save Movie</button></div>;
       }else{
           rankElement=<h5 className="card-body">{this.state.Rank}</h5>;
           titleElement = <h5 className="card-body">{this.state.Title}</h5>;
           descriptionElement = <p>{this.state.Description}</p>; 
           genreElement = <p>{this.state.Genre}</p>
           yearElement =<p>{this.state.Year}</p>
-          buttonArea = <div><button className="btn btn-info" onClick={this.handleEdit.bind(this)}>Edit</button><button className="btn btn-danger" onClick={this.handleDelete.bind(this)}>Delete</button></div>;
+          buttonArea = <div><button className="btn btn-info" onClick={this.handleEdit.bind(this)}>Edit Movie</button><button className="btn btn-danger" onClick={this.handleDelete.bind(this)}>Delete Movie</button></div>;
       }
       return (
           <div className='col-sm-6'>
