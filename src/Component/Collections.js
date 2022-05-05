@@ -51,7 +51,7 @@ class Collections extends Component {
                     </div>
                 </div>
             <div>
-                <button className="btn btn-success add-button" onClick={this.addMovie.bind(this)}>Add</button>
+                <button className="btn btn-success add-button" onClick={this.addMovie.bind(this)}>Add Movie</button>
             </div>
         </div>
         );
