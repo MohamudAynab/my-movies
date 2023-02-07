@@ -28,8 +28,9 @@ class Collections extends Component {
         let newMovieArr = this.state.Movie;
         newMovieArr.map ((Movie, index) => {
             if (id === Movie.id) {
-                newMovieArr.splice (index, 1);
+                 newMovieArr.splice (index, 1);
             }
+            return Movie
         });
         this.setState(
             {
