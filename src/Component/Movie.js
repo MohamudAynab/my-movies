@@ -62,7 +62,7 @@ class Movie extends Component {
           
           buttonArea = <div><button className="btn btn-info" onClick={this.handleEdit.bind(this)}>Edit Movie</button><button className="btn btn-danger" onClick={this.handleDelete.bind(this)}>Delete Movie</button></div>
       }
-      //Edit the css for id's below to see if pages looks better.
+      //Edit the css for id's below to see if pages looks better..
       return (
           <div className='col-sm-6'>             
               <div className="card card-view">
